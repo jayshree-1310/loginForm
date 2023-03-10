@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact me.css">
+</head>
+
+<body>
+    <h1>FORM</h1>
+    <form action="mailto:jayshreeupadhyay1310@gmail.com" method="post" enctype="text/plain">
+        <div class="form">
+            <label>First Name:</label><br>
+            <input type="text" name="Fname" value=""><br>
+            <label>Last Name:</label><br>
+            <input type="text" name="Lname" value=""><br>
+            <label>Phone number:</label><br>
+            <select id="cur" name="number">
+                <option value="IN">+91</option>
+                <option value="PAK">+92</option>
+                <input type="number" name="number" value=""><br>
+                <label>DOB</label><br>
+                <input type="date" name="dob" id="cur" value=""><br>
+                <label for="Department">Department</label>
+                <select id="cur" name="Department">
+                    <option value="cse">CSE</option>
+                    <option value="csit">CSIT</option>
+                    <option value="me">ME</option>
+                    <option value="ece">ECE</option>
+                </select><br>
+                <label>Email:</label><br>
+                <input type="email" name="mail id" value=""><br>
+                <label>Password:</label><br>
+                <input type="password" name="pass" value=""><br>
+                <label>Gender:</label><br>
+                <input type="radio" name="male" id="cur" value="">
+                <label>Male</label><br>
+                <input type="radio" name="female" id="cur" value="">
+                <label>Female</label><br>
+                <input type="radio" name="others" id="cur" value="">
+                <label>Others</label><br>
+                <label>Address:</label><br>
+                <textarea id="subject" name="subject" placeholder="Write something.."></textarea><br><br>
+                <input type="submit" id="cur">
+        </div>
+    </form>
+</body>
+
+</html>

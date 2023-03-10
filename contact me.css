@@ -1,0 +1,67 @@
+body 
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(https://c1.wallpaperflare.com/preview/467/704/1016/wood-wooden-desktop-table.jpg);
+}
+
+label 
+{
+    padding: 12px 12px 12px 5px;
+    display: inline-block;
+    font-size: 17px;
+}
+
+#submit 
+{
+    padding: 5px;
+    margin: 5px;
+}
+
+input 
+{
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: black;
+}
+
+.form 
+{
+    background-color: #9facae;
+    padding: 10px;
+    margin: auto;
+    align-content: center;
+    text-shadow: 0 0 black;
+    width: 40%;
+}
+
+h1 
+{
+    color: rgb(43, 30, 58);
+    font-size: 40px;
+    text-shadow: 0 0 rgb(255, 255, 255);
+    text-align: center;
+}
+
+textarea 
+{
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: black;
+    height: auto;
+    max-width: 100%;
+    min-width: 50%;
+
+}
+
+select 
+{
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: black;
+}
+
+#cur 
+{
+    cursor: pointer;
+    border-width: 3px;
+}
